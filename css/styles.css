@@ -1,0 +1,779 @@
+body {
+  margin: 0;
+
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
+* { 
+  
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+  }
+
+/* header and nav bar area */
+
+nav {
+
+  width: 100%;
+  height: 75px;
+  background-color: tan;
+  position: fixed;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  z-index:1;
+
+}
+
+nav .logo {
+
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+}
+
+nav .logo p {
+
+  float: left;
+  color: darkblue;
+  text-transform: uppercase;
+  font-size: 21px;
+  display: flex;
+
+}
+
+
+.heroTitlePic {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+
+  height: 100%;
+  width: 100%;
+
+  
+}
+
+/* YANKEES STADIUM AND ACRISURE STADIUM PICS, TOP OF PAGE */
+
+
+.heropics {
+
+  height: 50%;
+  width: 50%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+
+  
+}
+
+
+/* HERO SPLASH TITLE AREA */
+
+
+.my-hero-splash-header{
+  background-color: tan;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.HeroTitle  {
+
+  font-size: 55px;
+  margin: 50px auto 0 auto;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-align: center;
+  background-color:azure;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+
+
+
+}
+
+.video {
+
+  width:700px;
+  height: 393px;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+.billypicture {
+
+  width: 25%;
+
+
+}
+
+
+
+
+  .fiddlerDeskHero{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100%;
+    width:100%;
+  
+  }
+
+  .videoplaceholder{
+
+    display: flex;
+    
+    padding-top: 115px;
+    padding-bottom: 82px;
+    height:100%;
+    width:100%;
+
+  }
+
+
+
+p {
+
+    font-size: 1em;
+}
+
+.headshot {
+
+    float: left;
+    height: 50px;
+    padding-left: 40px;
+}
+
+
+
+/* media query for desktop *//* media query for desktop *//* media query for desktop *//* media query for desktop */
+
+
+
+
+@media screen and (min-width:1024px) {
+
+
+
+
+
+  .video {
+
+    width:1000px;
+    height: 563px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .heroTitlePic {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+
+    height: 30%;
+    width: 30%;
+
+    
+  }
+
+  .videoplaceholder{
+
+    display: inline-flex;
+    padding-top: 115px;
+    padding-bottom: 82px;
+    height:40%;
+    width:40%;
+
+  }
+
+  nav .logo p {
+
+    float: left;
+    color: red;
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+
+
+
+  .threeFunFactsTitle {
+
+    font-size: 60px;
+    color: purple;
+    padding-bottom: 50px;
+  }
+
+  /* Yellow box steps for online shopping on index page */
+
+.stepsshopping{
+
+  font-size: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 220px;
+  color:black;
+
+  background-color: yellow;
+
+
+
+}
+
+.stepsOne{
+
+  color:black;
+  font-size: 50px;
+
+}
+
+
+.words{
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 120px;
+  margin-bottom: 130px;
+  font-size: 34px;
+  line-height: 47px;
+  display:flex;
+
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  height: 50%;
+  width: 50%;
+
+
+}
+
+
+
+  .sevenfacts{
+
+    font-size: 60px;
+  }
+
+
+  hr {
+
+    border: solid purple 6px;
+    border-bottom: none;
+    width: 100%;
+    margin: 100px auto;
+  }
+
+
+
+
+
+    /*index page only */
+
+    /*nav bar section only start */
+
+    .btn3 {
+      background: yellow;
+      background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+      background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+      background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+      background-image: -o-linear-gradient(top, #F63D3D, #811616);
+      background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      height: 55px;
+      line-height: 10px;
+      color: white;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 80%;
+      font-size: 66px;
+      font-weight: 900;
+      padding: 28px;
+      padding-right: 30px;
+      padding-top: 30px;
+      -webkit-box-shadow: 1px 1px 6px 0 #000000;
+      -moz-box-shadow: 1px 1px 6px 0 #000000;
+      box-shadow: 1px 1px 6px 0 #000000;
+      text-shadow: 1px 1px 6px #000000;
+      border: solid #762C2C 1px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: 60px;
+   
+   }
+
+   .btn3:hover {
+
+    color: aqua;
+ 
+ }
+
+    .navbar {
+      padding-bottom: 1.5rem;
+      color: white;
+      
+      }
+      
+      .nav-item {
+      padding: 0 10px;
+      
+      
+      }
+      
+      .nav-link{
+      font-size: 35px;
+      color: white;
+      
+      }
+      
+      .navbar-brand {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-left: 50px;
+      color: white;
+      
+      }
+
+          /*nav bar section only end */
+
+
+        .pro5 {
+            color: white;
+        }
+
+        .image-here{
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            height:50%;
+            width:50%;
+          
+          }
+
+          .fiddlerDeskHero{
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            height:100%;
+            width:100%;
+          
+          }
+
+
+
+
+
+
+
+  #darkbluebox {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #13274F;
+
+
+  }
+
+.masthead-title {
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+
+
+
+}
+
+
+
+  
+
+
+  /*footer section */
+
+
+  .footer {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: tan;
+  }
+
+  .footercopy {
+    color: black;
+    font-size: 40px;
+  }
+
+
+
+}
+
+
+
+  .loveconquers-text {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: tan;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+
+
+
+
+/* media query for tablet *//* media query for tablet *//* media query for tablet *//* media query for tablet */
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+  .stepsshopping{
+
+    font-size: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 220px;
+    color:black;
+  
+    background-color: yellow;
+  
+  
+  
+  }
+
+
+
+
+  .loveconquers-text {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: tan;
+    font-size: 49px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+  hr {
+
+    border: solid red 16px;
+    border-bottom: none;
+    width: 74%;
+    margin: 100px auto;
+      
+
+  }
+
+  .main-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+
+
+
+
+      /*nav bar section only start */
+
+    .navbar {
+      padding-bottom: 1.5rem;
+      
+      }
+      
+      .nav-item {
+      padding: 0 10px;
+      
+      
+      }
+      
+      .nav-link{
+      font-size: 35px;
+      
+      }
+      
+      .navbar-brand {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2.5rem;
+      font-weight: bold;
+      padding-left: 50px;
+      color: white;
+
+      
+      }
+
+          /*nav bar section only end */
+
+  .image-here{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100%;
+    width:100%;
+  
+
+  }
+
+
+  #darkbluebox {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #13274F;
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
+.masthead-title {
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+
+
+
+}
+
+.footer {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: tan;
+
+  }
+
+  .footercopy {
+    color: black;
+    font-size: 40px;
+
+  }
+
+
+
+/* media query for mobile *//* media query for mobile *//* media query for mobile *//* media query for tablet */
+
+@media screen and (min-width:180px) and (max-width: 768px) {
+
+  /* Yellow box steps for online shopping on index page */
+
+.stepsshopping{
+
+  font-size: 55px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color:black;
+
+  background-color: yellow;
+
+}
+
+
+
+.heropics {
+
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  margin-top: 55px;
+  margin-bottom: 55px;
+  
+
+  
+}
+
+
+.threeFunFactsTitle {
+
+  font-size: 60px;
+  color: purple;
+  padding-bottom: 50px;
+}
+
+
+hr {
+
+  border: solid black 6px;
+  border-bottom: none;
+  width: 100%;
+  margin: 100px auto;
+}
+
+
+  .sevenfacts{
+
+    font-size: 60px;
+  }
+
+  .loveconquers-text {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: tan;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+
+
+  .footercopy {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+
+
+  .image-here{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height:100%;
+    width:100%;
+  
+
+  }
+
+
+  #darkbluebox {
+
+    font-size: 52px;
+    width: 100%;
+    text-align: center;
+    background-color: #13274F;
+
+
+  }
+
+
+
+.welcome{
+
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 400%;
+  background-color: #FFC20E;
+
+}
+
+.navbar-brand {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 50px;
+  color: white;
+
+  
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
